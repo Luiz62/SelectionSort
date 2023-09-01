@@ -4,6 +4,14 @@
 # Log file
 *.log
 
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+*.xml
+*.iml
+
 # BlueJ files
 *.ctxt
 
@@ -22,3 +30,10 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+/.idea/.gitignore
+/.idea/jpa-buddy.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/SelectionSort.iml
+/.idea/vcs.xml
